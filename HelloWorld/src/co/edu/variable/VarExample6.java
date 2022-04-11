@@ -10,10 +10,7 @@ public class VarExample6 {
 		mathScore = 80;
 		engScore = 90;
 		
-		System.out.println(myName + "의 나이는 " + age); //
-		        + "이고 키는 " + height + "이고" //
-		        + "영어,수학점수의 합은 " + (mathScore + engScore) //
-		        + "입니다.");
+		System.out.println(myName + "의 나이는 " + age + "이고 키는 " + height + "이고"+ "영어,수학점수의 합은 " + (mathScore + engScore) + "입니다.");
 		
 		char firstChar = myName.charAt(0);
 		System.out.println((int)firstChar);
