@@ -29,7 +29,7 @@ public class Java {
 			maxValue = num3;
 			
 		}
-		System.out.println("합은 %3d이고 평균은 %.2f이고 최고점은 %3d점 입니다, maxValue, sum");
+		System.out.printf("합은 %2d이고 평균은 %.2f이고 최고점은 %3d점입니다", sum, avg, maxValue);
 	}
 
 }
